@@ -1,3 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Open+Sans&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+::selection {
+    background: #FF0099;
+    color: black;
+    text-shadow: none;
+}
+::-moz-selection {
+    background: #FF0099;
+    color: #EEE;
+    text-shadow: none;
+}
