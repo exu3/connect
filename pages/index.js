@@ -7,7 +7,7 @@ import Footer from '../components/footer';
 
 export default function Home() {
   useEffect(() => {
-    console.log('asdfasdf')
+    console.log('ella was here')
   });
 
   return (
