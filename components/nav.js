@@ -4,6 +4,7 @@ import { CgDarkMode } from 'react-icons/cg'
 import {useTheme} from 'next-themes'
 
 const links = [
+    { label: "Home", href: "/" },
     { label: "Our Program", href: "/" },
     { label: "Get Started", href: "/" },
 ]
@@ -11,12 +12,12 @@ const links = [
 export default function Nav() {
     const {theme, setTheme} = useTheme()
     useEffect(() => {
-        console.log('hello')
+        console.log('Ella was here. https://ela.now.sh')
     })
     return (
         <nav className="dark:text-white">
             <ul className="flex flex-wrap sm:justify-between items-start sm:items-center p-8 mt-6 sm:mt-0">
-                <li className="text-5xl">⌘</li>
+                <li className="text-5xl"></li>
                 <ul className={`mx-auto sm:mx-0 flex flex-row space-x-5`}>
                     {links.map(({ href, label }) => (
                         <li className="self-center" key={`${href}${label}`}>
