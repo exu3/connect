@@ -5,7 +5,7 @@ import {useTheme} from 'next-themes'
 
 const links = [
     { label: "Home", href: "/" },
-    { label: "Our Program", href: "/" },
+    { label: "About", href: "/about" },
     { label: "Get Started", href: "/" },
 ]
 

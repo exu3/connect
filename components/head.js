@@ -2,7 +2,7 @@ import Head from 'next/head'
 
 export default function HeadObject({children}) {
     const title = "Command Connect";
-    const description = "Command Connect is a mentorship program by Command Tech.";
+    const description = "Command Connect is a virtual STEM mentorship program hosted by Command Tech to help link female & nonbinary individuals who are interested in technology with experienced professionals in engineering, robotics, AI, and more.";
     const keywords = "STEM, coding, mentorship, women in stem";
     const author = "Command Tech";
     const twitter = "@commandtech";
