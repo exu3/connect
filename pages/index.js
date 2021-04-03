@@ -4,11 +4,8 @@ import HeadObject from '../components/head'
 import Nav from '../components/nav';
 import { BsChevronCompactDown } from 'react-icons/bs';
 import Footer from '../components/footer';
-import getMentors from '../lib/getMentors';
 
-getMentors();
-
-export default function Home({ mentors }) {
+export default function Home() {
   useEffect(() => {
     console.log('asdfasdf')
   });
@@ -35,14 +32,4 @@ export default function Home({ mentors }) {
       </main>
     </div>
   )
-}
-
-export async function getStaticProps() {
-  const mentors = await getMentors();
-
-  return {
-    props: {
-      mentors,
-    },
-  };
 }
