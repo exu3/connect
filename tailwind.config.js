@@ -8,7 +8,10 @@ module.exports = {
         openSans: 'Open Sans, sans-serif',
       },
       textShadow: {
-        blue: '#C67DFF'
+        blue: '#C67DFF',
+        peach: '#FFBEBE',
+        pastelBlue: '#C0DDFF',
+        
       }
     },
   },

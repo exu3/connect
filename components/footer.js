@@ -1,7 +1,18 @@
 export default function Footer() {
-    return (
-        <div className="w-full absolute">
-            <svg viewBox="0 0 900 600" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1"><rect x={0} y={0} width={900} height={600} fill="#ffffff" /><path d="M0 382L25 394.5C50 407 100 432 150 429.3C200 426.7 250 396.3 300 398.8C350 401.3 400 436.7 450 443.7C500 450.7 550 429.3 600 413C650 396.7 700 385.3 750 387.8C800 390.3 850 406.7 875 414.8L900 423L900 601L875 601C850 601 800 601 750 601C700 601 650 601 600 601C550 601 500 601 450 601C400 601 350 601 300 601C250 601 200 601 150 601C100 601 50 601 25 601L0 601Z" fill="#e5e5e5" strokeLinecap="round" strokeLinejoin="miter" /></svg>
+  return (
+    <footer>
+        <div className="w-full">
+            <svg viewBox="0 0 900 600">
+              <path
+                d="M0 519l6.8 4.2c6.9 4.1 20.5 12.5 34.2 16.5 13.7 4 27.3 3.6 41 2 13.7-1.7 27.3-4.7 41-9.4 13.7-4.6 27.3-11 41-11.5s27.3 4.9 40.8 9.5c13.5 4.7 26.9 8.7 40.4 11.9 13.5 3.1 27.1 5.5 40.8 8.5 13.7 3 27.3 6.6 41 1.1s27.3-20.1 41-26.3c13.7-6.2 27.3-3.8 41 2.3 13.7 6.2 27.3 16.2 41 17.5 13.7 1.4 27.3-6 41-5.6 13.7.3 27.3 8.3 41 6.8 13.7-1.5 27.3-12.5 41-17.5s27.3-4 41-3.7c13.7.4 27.3 0 40.8 4 13.5 4 26.9 12.4 40.4 13.7 13.5 1.3 27.1-4.3 40.8-8.7 13.7-4.3 27.3-7.3 41-9.5 13.7-2.1 27.3-3.5 41 1s27.3 14.9 41 17.9c13.7 3 27.3-1.4 34.2-3.5l6.8-2.2v63H0z"
+                fill="#DDB1FF"
+                strokeLinecap="round"
+              />
+            </svg>
+                <div className="text-center -mt-6 p-6 h-8 bg-blue w-100 md:p-0 md:-mt-10 font-bold font-montserrat">
+                    <p>Made with yeet by Command Tech.</p>
+                </div>
         </div>
-    )
+    </footer>
+  );
 }
