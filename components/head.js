@@ -6,7 +6,7 @@ export default function HeadObject({children}) {
     const keywords = "STEM, coding, mentorship, women in stem";
     const author = "Command Tech";
     const twitter = "@commandtech";
-    //const image = "/ogimage.png"; // This is your OpenGraph image
+    const image = "https://cloud-9m2fni310-hack-club-bot.vercel.app/0frame_2.png"; 
     return (
         <Head>
             <meta charSet="utf-8" />
@@ -16,11 +16,11 @@ export default function HeadObject({children}) {
             <meta name="description" content={description} />
             <meta name="keywords" content={keywords} />
             <meta name="author" content={author} />
-            <meta property="og:url" content="https://connect.commandtech.codes" /> {/* This is where you put the domain */}
+            <meta property="og:url" content="https://connect.commandtech.codes" />
             <meta property="og:type" content="website" />
             <meta property="og:title" content={title} />
             <meta property="og:description" content={description} />
-            {/* <meta property="og:image" content={image} /> */}
+            <meta property="og:image" content={image} />
             <meta name="twitter:card" content="summary" />
             <meta name="twitter:site" content={twitter} />
             <meta name="twitter:creator" content={twitter} />
