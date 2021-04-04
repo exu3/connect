@@ -4,6 +4,27 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+    h1 {
+      @apply text-5xl text-center font-bold font-montserrat leading-loose;
+    }
+    h2, h3 {
+      @apply text-3xl font-medium font-montserrat leading-loose;
+    }
+    h4 {
+      @apply text-xl leading-loose font-semibold;
+    }
+    p {
+      @apply text-lg font-openSans;
+    }
+    strong {
+      @apply font-semibold text-purple-400;
+    }
+    table, th, td {
+      @apply border p-2;
+    }
+  }
+
 ::selection {
     background: #FF0099;
     color: black;
