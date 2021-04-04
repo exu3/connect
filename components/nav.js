@@ -6,7 +6,7 @@ import {useTheme} from 'next-themes'
 const links = [
     { label: "Home", href: "/" },
     { label: "About", href: "/about" },
-    { label: "Get Started", href: "/" },
+    { label: "Sign Up", href: "/" },
 ]
 
 export default function Nav() {
