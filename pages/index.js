@@ -7,14 +7,14 @@ import Footer from '../components/footer';
 
 export default function Home() {
   useEffect(() => {
-    console.log('ella was here')
+    console.log('Ella was here. https://ela.now.sh')
   });
 
   return (
     <div className="dark:text-white dark:bg-black">
       <HeadObject/>
       <Nav />
-      <main>
+      <main className="">
         <section>
           <div className="text-center">
             <p className="text-gray-400 text-xl font-montserrat font-semibold">command tech presents</p>
@@ -28,8 +28,8 @@ export default function Home() {
         <section id="about">
           <div>alsdkfjasdlf</div>
         </section>
-        <Footer />
       </main>
+      <Footer />
     </div>
   )
 }
