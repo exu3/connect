@@ -12,8 +12,8 @@ export default function Footer() {
             fill="#60a5fa"
           />
         </svg>
-        <div className="text-center -mt-1 h-8 bg-blue-400 w-100 font-bold font-montserrat">
-          <p>Made with yeet by Command Tech.</p>
+        <div className="text-center -mt-1 h-8 bg-blue-400 w-100 font-medium font-montserrat">
+          <p>Made with ♥ and 💻 by Command Tech.</p>
         </div>
       </div>
     </footer>
