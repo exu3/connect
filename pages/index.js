@@ -55,7 +55,7 @@ export default function Home() {
           </div>
         </section>
         <section className="mt-28">
-          <h2 className="text-center font-bold mb-8" id="steps">
+          <h2 className="text-center font-bold mb-8 relative z-20" id="steps">
             how it works
           </h2>
           <div className="mx-24 md:mx-40 lg:justify-center flex flex-col justify-center">
@@ -75,7 +75,7 @@ export default function Home() {
         </section>
         <img
           src="https://cloud-1dbtgci6g-hack-club-bot.vercel.app/0wheeeeeeeeeeeeee.png"
-          className="hidden md:flex w-72 absolute right-20 -bottom-48"
+          className="hidden md:flex w-72 absolute right-20 -bottom-48 z-0"
           alt="woman looking at phone"
         />
         <section className="mt-24" id="testimonials">
