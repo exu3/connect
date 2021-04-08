@@ -1,12 +1,11 @@
 import { useEffect } from "react";
-import Link from "next/link";
 import HeadObject from "../components/head";
 import Nav from "../components/nav";
-import { BsChevronCompactDown } from "react-icons/bs";
 import Footer from "../components/footer";
 import Button from "../components/button";
 import Step from "../components/step";
 import Testimonial from "../components/testimonial";
+import { BsChevronCompactDown } from "react-icons/bs";
 
 export default function Home() {
   useEffect(() => {
@@ -18,12 +17,12 @@ export default function Home() {
       <HeadObject />
       <Nav />
       <main className="">
-        <section>
+        <section className="mt-10">
           <div className="text-center">
-            <p className="text-gray-400 text-xl font-montserrat font-semibold">
+            <p className="text-gray-400 text-xl font-montserrat font-semibold -mb-4">
               command tech presents
             </p>
-            <h1 className="text-5xl font-extrabold font-montserrat bg-clip-text text-transparent bg-gradient-to-r from-[#C67DFF] to-[#497CFF] text-shadow-lg dark:text-shadow-white">
+            <h1 className="text-5xl font-extrabold font-montserrat bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500 text-shadow-sm dark:text-shadow-white">
               Command Connect
             </h1>
             <h3 className="text-lg md:text-xl font-openSans mt-2 md:w-4/5 mx-auto px-5">
@@ -31,13 +30,23 @@ export default function Home() {
               interested in STEM.
             </h3>
             <Button buttonDestination="/about" buttonText="Learn more" />
-            <Link href="#about">
+            <div className="animate-bounce">
               <BsChevronCompactDown
                 size={50}
                 color="gray"
                 className="mx-auto mt-5"
               />
-            </Link>
+              <BsChevronCompactDown
+                size={50}
+                color="gray"
+                className="mx-auto -mt-10"
+              />
+              <BsChevronCompactDown
+                size={50}
+                color="gray"
+                className="mx-auto -mt-10"
+              />
+            </div>
           </div>
         </section>
         <img
@@ -45,31 +54,47 @@ export default function Home() {
           alt="woman on rocket"
           className="hidden md:flex absolute md:-ml-32 md:z-0"
         />
-        <section id="about" className="mt-5 z-50 relative">
+        <section id="about" className="mt-20 z-50 relative">
           <h2 className="text-center font-bold">our mission</h2>
           <div className="text-xl text-center mx-4 md:mx-40 lg:mx-72">
             Statistics show that female and non-binary individuals are still
             widely underrepresented in vast fields of technology. Here at
             Command Tech, our mission is to improve those inequities through the
-            application of intersectional mentorship.{" "}
+            application of intersectional mentorship.
           </div>
         </section>
         <section className="mt-28">
           <h2 className="text-center font-bold mb-8 relative z-20" id="steps">
             how it works
           </h2>
-          <div className="mx-24 md:mx-40 lg:justify-center flex flex-col justify-center">
-            <Step
-              icon="https://cloud-kpbkrdp6v-hack-club-bot.vercel.app/0saly-26_1.png"
-              action="read the guidelines"
+          <ul className="mx-24 md:mx-40 inline-block justify-center w-full list-none m-auto">
+            <li>
+              <Step
+                icon="https://cloud-kpbkrdp6v-hack-club-bot.vercel.app/0saly-26_1.png"
+                action="read the guidelines"
+              />
+            </li>
+            <li>
+              <Step
+                icon="https://cloud-awro5n7df-hack-club-bot.vercel.app/0saly-28_1_.png"
+                action="apply for the program"
+              />
+            </li>
+            <li>
+              <Step
+                icon="https://cloud-lbhrtik23-hack-club-bot.vercel.app/0doodle-2_1.png"
+                action="get connected"
+              />
+            </li>
+          </ul>
+          <div className="flex flex-col space-y-5 md:flex-row md:space-x-6 md:space-y-0 md:mx-auto justify-center">
+            <Button
+              buttonDestination="https://airtable.com/shrwy0K0B2RlxFcbv"
+              buttonText="Become a mentor"
             />
-            <Step
-              icon="https://cloud-awro5n7df-hack-club-bot.vercel.app/0saly-28_1_.png"
-              action="apply for the program"
-            />
-            <Step
-              icon="https://cloud-lbhrtik23-hack-club-bot.vercel.app/0doodle-2_1.png"
-              action="get connected"
+            <Button
+              buttonDestination="https://airtable.com/shrbgQXx5nk6EziCW"
+              buttonText="Become a mentee"
             />
           </div>
         </section>
@@ -105,6 +130,45 @@ export default function Home() {
               name="Blob Ross"
               role="Mentor"
             />
+          </div>
+        </section>
+        <section className="mt-8">
+          <h2 className="text-center font-bold">questions?</h2>
+          <div>
+            <form
+              method="POST"
+              action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScI-GcaYO_ONUgyBPqNQYM5WMdsZe20vT6OQde_RUNT6TWV2w/formResponse"
+              className="flex flex-col mx-10 sm:mx-36 justify-center font-openSans space-y-4"
+            >
+              <label for="name">Name</label>
+              <input
+                className="border border-blue-300 dark:text-black focus:border-purple-700 shadow-sm focus:shadow-lg rounded-md p-1"
+                type="text"
+                id="name"
+                name="entry.671305822"
+              />
+              <label for="email">Email</label>
+              <input
+                required
+                className="border border-blue-300 dark:text-black focus:border-purple-700 shadow-sm focus:shadow-lg rounded-md p-1"
+                type="email"
+                id="email"
+                name="entry.1199514761"
+              />
+              <label for="message">Message</label>
+              <textarea
+                className="border border-blue-300 focus:border-purple-700 dark:text-black shadow-sm focus:shadow-lg rounded-md p-1"
+                rows="5"
+                name="entry.1208007492"
+              />
+              <button
+                className="bg-purple-300 shadow-xl dark:bg-purple-600 hover:bg-purple-700 hover:text-white rounded-md max-w-min p-2"
+                type="submit"
+                value="Submit"
+              >
+                Submit
+              </button>
+            </form>
           </div>
         </section>
       </main>
