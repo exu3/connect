@@ -29,7 +29,19 @@ export default function Home() {
               A virtual mentorship program for female and non-binary students
               interested in STEM.
             </h3>
-            <Button buttonDestination="/about" buttonText="Learn more" />
+            <div className="flex flex-col space-y-3 md:flex-row md:space-x-5 md:space-y-0 mt-4 align-baseline justify-center">
+              <a href="https://airtable.com/shrwy0K0B2RlxFcbv">
+                <button className="bg-purple-400 text-white font-semibold font-openSans text-lg p-1.5 px-4 rounded-xl">
+                  Become a mentor
+                </button>
+              </a>
+              <a href="https://airtable.com/shrbgQXx5nk6EziCW">
+                <button className="border-2 border-purple-400 text-purple-400 font-openSans font-semibold text-lg p-1 px-4 rounded-xl">
+                  Apply for mentorship
+                </button>
+              </a>
+            </div>
+
             <div className="animate-bounce">
               <BsChevronCompactDown
                 size={50}
@@ -88,14 +100,7 @@ export default function Home() {
             </li>
           </ul>
           <div className="flex flex-col space-y-5 md:flex-row md:space-x-6 md:space-y-0 md:mx-auto justify-center">
-            <Button
-              buttonDestination="https://airtable.com/shrwy0K0B2RlxFcbv"
-              buttonText="Become a mentor"
-            />
-            <Button
-              buttonDestination="https://airtable.com/shrbgQXx5nk6EziCW"
-              buttonText="Become a mentee"
-            />
+            <Button buttonDestination="/about" buttonText="Learn more" />
           </div>
         </section>
         <img
@@ -104,31 +109,25 @@ export default function Home() {
           alt="woman looking at phone"
         />
         <section className="mt-24" id="testimonials">
-          <h2 className="text-center font-bold">testimonials</h2>
-          <div className="grid grid-cols-1 mx-10 md:grid-cols-2 lg:grid-cols-4 gap-3 justify-center">
+          <h2 className="text-center font-bold leading-loose">testimonials</h2>
+          <div className="grid grid-cols-1 mx-10 md:grid-cols-2 lg:grid-cols-3 gap-3 justify-center">
             <Testimonial
-              quote="This was kewl lorem ipusm blah blah blah. i loved this mentorship program a lot yeet. yeet, yote."
+              quote="Command Connect is an amazing opportunity to talk to women in STEM and receive guidance."
               profileIcon="https://source.unsplash.com/random/100x100"
-              name="Blob Ross"
+              name="Hana Gabrielle Bidon"
               role="Mentor"
             />
             <Testimonial
-              quote="This was kewl lorem ipusm blah blah blah. i loved this mentorship program a lot yeet. yeet, yote."
+              quote="Command Tech is a truly amazing program! This is my third cycle and I've been paired up with the most enthusiastic, personable mentees and enjoyed every cycle of networking, events, and projects. Looking forward to staying involved with this org as long as possible."
               profileIcon="https://source.unsplash.com/random/100x100"
-              name="Blob Ross"
+              name="Ruqaiyah Angeles"
               role="Mentor"
             />
             <Testimonial
-              quote="This was kewl lorem ipusm blah blah blah. i loved this mentorship program a lot yeet. yeet, yote."
+              quote="My experience with Command Connect was very insightful, and I learned a lot from my mentor."
               profileIcon="https://source.unsplash.com/random/100x100"
-              name="Blob Ross"
-              role="Student"
-            />
-            <Testimonial
-              quote="This was kewl lorem ipusm blah blah blah. i loved this mentorship program a lot yeet. yeet, yote."
-              profileIcon="https://source.unsplash.com/random/100x100"
-              name="Blob Ross"
-              role="Mentor"
+              name="AA"
+              role="Mentee"
             />
           </div>
         </section>
