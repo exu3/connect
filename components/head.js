@@ -7,7 +7,7 @@ export default function HeadObject({ children }) {
   const keywords = "STEM, coding, mentorship, women in stem";
   const author = "Command Tech";
   const twitter = "@commandtech";
-  const image = "https://cloud-9m2fni310-hack-club-bot.vercel.app/0frame_2.png";
+  const image = "/ogimage.png";
   return (
     <Head>
       <meta charSet="utf-8" />
