@@ -79,7 +79,7 @@ export default function Home() {
           <h2 className="text-center font-bold mb-8 relative z-20" id="steps">
             how it works
           </h2>
-          <ul className="mx-24 md:mx-40 inline-block justify-center w-full list-none m-auto">
+          <ul className="mx-24 md:mx-40 flex flex-col justify-center w-full list-none m-auto">
             <li>
               <Step
                 icon="https://cloud-kpbkrdp6v-hack-club-bot.vercel.app/0saly-26_1.png"
