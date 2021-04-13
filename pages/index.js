@@ -68,7 +68,7 @@ export default function Home() {
         />
         <section id="about" className="mt-20 z-50 relative">
           <h2 className="text-center font-bold">our mission</h2>
-          <div className="text-xl text-center mx-4 md:mx-40 lg:mx-72">
+          <div className="text-xl text-center mx-4 md:mx-40 lg:mx-72 font-openSans">
             Statistics show that female and non-binary individuals are still
             widely underrepresented in vast fields of technology. Here at
             Command Tech, our mission is to improve those inequities through the
