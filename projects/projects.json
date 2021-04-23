@@ -1,0 +1,20 @@
+[
+  {
+    "projectTitle": "Cool Projectname",
+    "studentName": "Hacker Person",
+    "projectType": "Website",
+    "projectDescription": "This is a simple hangman game written in Java, with no external libraries. Players choose from two lists of words, easy or hard, and then guess the word the program gives them letter by letter (or they can try the whole word) before they run out of tries. Read the README file for more information and feel free to open an issue if you have additional questions/feedback about the program. "
+  },
+  {
+    "projectTitle": "Cool Projectname",
+    "studentName": "Hacker Person",
+    "projectType": "Website",
+    "projectDescription": "This is a simple hangman game written in Java, with no external libraries. Players choose from two lists of words, easy or hard, and then guess the word the program gives them letter by letter (or they can try the whole word) before they run out of tries. Read the README file for more information and feel free to open an issue if you have additional questions/feedback about the program. "
+  },
+  {
+    "projectTitle": "Cool Projectname",
+    "studentName": "Hacker Person",
+    "projectType": "Website",
+    "projectDescription": "This is a simple hangman game written in Java, with no external libraries. Players choose from two lists of words, easy or hard, and then guess the word the program gives them letter by letter (or they can try the whole word) before they run out of tries. Read the README file for more information and feel free to open an issue if you have additional questions/feedback about the program. "
+  }
+]

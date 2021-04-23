@@ -31,12 +31,12 @@ export default function Home() {
             </h3>
             <div className="flex flex-col space-y-3 md:flex-row md:space-x-5 md:space-y-0 mt-4 align-baseline justify-center">
               <a href="https://airtable.com/shrwy0K0B2RlxFcbv">
-                <button className="bg-purple-400 text-white font-semibold font-openSans text-lg p-1.5 px-4 rounded-xl">
+                <button className="transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 bg-purple-400 text-white font-semibold font-openSans text-lg p-1.5 px-4 rounded-xl">
                   Become a mentor
                 </button>
               </a>
               <a href="https://airtable.com/shrbgQXx5nk6EziCW">
-                <button className="border-2 border-purple-400 text-purple-400 font-openSans font-semibold text-lg p-1 px-4 rounded-xl">
+                <button className="transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 border-2 border-purple-400 text-purple-400 font-openSans font-semibold text-lg p-1 px-4 rounded-xl">
                   Apply for mentorship
                 </button>
               </a>
@@ -161,7 +161,7 @@ export default function Home() {
                 name="entry.1208007492"
               />
               <button
-                className="bg-purple-300 shadow-xl dark:bg-purple-600 hover:bg-purple-700 hover:text-white rounded-md max-w-min p-2"
+                className="transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 bg-purple-300 shadow-xl dark:bg-purple-600 hover:bg-purple-700 hover:text-white rounded-md max-w-min p-2"
                 type="submit"
                 value="Submit"
               >

@@ -6,6 +6,7 @@ import { useTheme } from "next-themes";
 const links = [
   { label: "Home", href: "/" },
   { label: "About", href: "/about" },
+  { label: "Projects", href: "/gallery" },
 ];
 
 export default function Nav() {
