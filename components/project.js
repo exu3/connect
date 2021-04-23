@@ -65,7 +65,6 @@ export default function Project({
                     </p>
                   </div>
                 </div>
-                {/* Repo Description */}
                 <div className="px-8">
                   <p className="my-4 text-lg">{description}</p>
                 </div>
