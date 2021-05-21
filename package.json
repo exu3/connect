@@ -10,7 +10,7 @@
   "dependencies": {
     "@mdx-js/loader": "^1.6.22",
     "@next/mdx": "^10.2.0",
-    "airtable": "^0.11.0",
+    "airtable": "^0.11.1",
     "next": "10.2.2",
     "next-themes": "^0.0.14",
     "react": "17.0.2",
